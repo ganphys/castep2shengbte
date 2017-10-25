@@ -14,7 +14,7 @@ The current version of the interface (thirdorder_castep.py) is compatible with t
 
 ### Prerequisites
 
-Install thirdorder-v1.0.2 (you can download it from the ShengBTE (website)[http://www.shengbte.org/downloads]) and then put thirdorder_castep.py in the installation directory
+Install thirdorder-v1.0.2 (you can download it from the ShengBTE [website](http://www.shengbte.org/downloads) and then put thirdorder_castep.py in the installation directory
 
 ## Using thirdorder_castep.py with CASTEP
 
@@ -56,9 +56,9 @@ Use FORCE\_CONSTANTS\_3RD file along with FORCE\_CONSTANTS\_2ND and CONTROL to p
 
 ```
 %BLOCK SPECIES_POT
-Fe ../../Fe\_C17\_PBE\_OTF.usp
-Ta ../../Ta\_C17\_PBE\_OTF.usp
-Sb ../../Sb\_C17\_PBE\_OTF.usp
+Fe ../../Fe_C17_PBE_OTF.usp
+Ta ../../Ta_C17_PBE_OTF.usp
+Sb ../../Sb_C17_PBE_OTF.usp
 %ENDBLOCK SPECIES_POT
 ```
 

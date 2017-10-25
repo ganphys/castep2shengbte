@@ -37,7 +37,7 @@ It is necessary to complete all jobs in <seedname>-3RD directory before proceedi
 	command: `find <seedname>-3RD/job* -name <seedname>.castep | sort -n| thirdorder_castep.py reap nx ny nz cutoff seedname`
  	Example: `find InAs-3RD/job* -name InAs.castep | sort -n| thirdorder_castep.py reap 1 1 1 -3 seedname`
 
-Use FORCE\_CONSTANTS\_3RD file along with FORCE\_CONSTANTS\_2ND and CONTROL to perform a ShengBTE run.
+Use FORCE_CONSTANTS_3RD file along with FORCE_CONSTANTS_2ND and CONTROL to perform a ShengBTE run.
 
 ### LIMITATIONS: 
 - It is not possible to do spin polarised calculations because spin will not be included in the supercell files.
@@ -48,9 +48,9 @@ Use FORCE\_CONSTANTS\_3RD file along with FORCE\_CONSTANTS\_2ND and CONTROL to p
 
 ### Useful tips
 
-- Use `write_checkpoint: none` in the <seedname>.param file. Otherwise, the process of writing hunderds of checkpoint files to the hard drive will slow down the calculation process.
+- Use `write_checkpoint: none` in the `<seedname>`.param file. Otherwise, the process of writing hunderds of checkpoint files to the hard drive will slow down the calculation process.
  
-- It is possible to reuse a single checkpoint file for each of the runs. This should save you a couple of hours. For that purpose generate a checkpoint file from one of the runs and place the file in the root directory where your input files are placed. Then add `reuse : ../../seedname.check` to your <seedname>.param file in the root directory and either run once again thirdorder_castep.py in SOW mode paste the edited <seedname>.param file to all subdirectories or copy and paste it manually.
+- It is possible to reuse a single checkpoint file for each of the runs. This should save you a couple of hours. For that purpose generate a checkpoint file from one of the runs and place the file in the root directory where your input files are placed. Then add `reuse : ../../seedname.check` to your `<seedname>`.param file in the root directory and either run once again thirdorder_castep.py in SOW mode paste the edited `<seedname>`.param file to all subdirectories or copy and paste it manually.
 
 - If you don't want to generate the pseudopotentials at the start of each run, you can add the following block to the end of the <seedname>.cell in the root directory:
 

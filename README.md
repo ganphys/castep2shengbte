@@ -15,7 +15,7 @@ The current version of the interface (castep2shengbte.py) is compatible with She
 
 The interface is a python script which uses python2.7 and requires the following libraries: numpy
 
-Before running the script the user needs a <seedname>.castep file obtained from a CASTEP Phonon run.
+Before running the script the user needs a `<seedname>`.castep file obtained from a CASTEP Phonon run.
 
 ### Installing
 
@@ -43,7 +43,7 @@ CONTROL
 FORCE_CONSTANTS_2ND
 ```
 
-Note that `PHONON_WRITE_FORCE_CONSTANTS: true` needs to be added to <seedname>.param or the force constants will not be written in <seedname>.castep.
+Note that `PHONON_WRITE_FORCE_CONSTANTS: true` needs to be added to `<seedname>`.param or the force constants will not be written in `<seedname>`.castep.
 
 ### ShengBTE notes
 

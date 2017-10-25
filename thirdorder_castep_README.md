@@ -14,7 +14,7 @@ The current version of the interface (thirdorder_castep.py) is compatible with t
 
 ### Prerequisites
 
-Install thirdorder-v1.0.2 (you can download it from the ShengBTE [website](http://www.shengbte.org/downloads) and then put thirdorder_castep.py in the installation directory
+Install thirdorder-v1.0.2 (you can download it from the ShengBTE [website](http://www.shengbte.org/downloads)) and then put thirdorder_castep.py in the installation directory
 
 ## Using thirdorder_castep.py with CASTEP
 

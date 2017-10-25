@@ -27,7 +27,7 @@ Install thirdorder-v1.0.2 (you can download it from the ShengBTE [website](http:
 	command: `thirdorder_castep.py sow nx ny nz cutoff seedname` 
  	Example: `thirdorder_castep.py sow 1 1 1 -3 InAs`
 
-It is necessary to complete all jobs in <seedname>-3RD directory before proceeding to REAP mode. 
+It is necessary to complete all jobs in `<seedname>`-3RD directory before proceeding to REAP mode. 
 
 ### REAP mode:
 	Input files: <seedname>.castep (thirdorder_castep.py goes through all subdirectories in <seedname>-3RD and collects forces data.)

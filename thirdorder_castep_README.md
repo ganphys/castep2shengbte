@@ -32,7 +32,7 @@ It is necessary to complete all jobs in <seedname>-3RD directory before proceedi
 ### REAP mode:
 	Input files: <seedname>.castep (thirdorder_castep.py goes through all subdirectories in <seedname>-3RD and collects forces data.)
  
-	Output file: FORCE\_CONSTANTS\_3RD
+	Output file: FORCE_CONSTANTS_3RD
 
 	command: `find <seedname>-3RD/job* -name <seedname>.castep | sort -n| thirdorder_castep.py reap nx ny nz cutoff seedname`
  	Example: `find InAs-3RD/job* -name InAs.castep | sort -n| thirdorder_castep.py reap 1 1 1 -3 seedname`
